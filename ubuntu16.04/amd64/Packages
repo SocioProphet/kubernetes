@@ -1,5 +1,23 @@
 Package: helm
 Architecture: amd64
+Version: 1.10.8+nvidia
+Priority: optional
+Section: misc
+Maintainer: NVIDIA CORPORATION <cudatools@nvidia.com>
+Filename: ./helm_1.10.8+nvidia_amd64.deb
+Size: 6073226
+MD5sum: 804ec70c2e047d3d6c100f274baa1eee
+SHA1: ebde6e58628a46057e00dbb3b3a2540450b9c137
+SHA256: f14318116aecc5691a45f217cb2621192a724d48ae7be8fd440410e813bcd5fc
+SHA512: b0fb3a61244f41681ea97a10d90a4055768caa6d8370da1b18381f9bbf9e86fcbf5b1835cf821e2a42401bcb8252eadc105d6f68c5e1349b23660dbef499597f
+Homepage: https://github.com/NVIDIA/kubernetes
+Description: Kubernetes Command Line Tool
+ The Kubernetes Package Manager
+Vcs-Git: https://github.com/NVIDIA/kubernetes
+Vcs-Browser: https://github.com/NVIDIA/kubernetes
+
+Package: helm
+Architecture: amd64
 Version: 1.9.10+nvidia
 Priority: optional
 Section: misc
@@ -29,6 +47,25 @@ MD5sum: 9dfe7b5afabdba4271c30ee22505c5e3
 SHA1: a4c287360ff55df1ee19c59acc215b7a35f34ae2
 SHA256: 7bae81dad5b38be77050ac8fdcdabaa5da7f6c482535b4fca7d21982b2f4bd78
 SHA512: 62a8eecbbdbcb70655909088b351cf8745d807202f9783b3c9efb0f6507e5102194ff4364d02da42c1baeeef76908fec1c1f681f8df5210d6722581253478159
+Homepage: https://github.com/NVIDIA/kubernetes
+Description: Kubernetes Cluster Bootstrapping Tool
+ The Kubernetes command line tool for bootstrapping a Kubernetes cluster.
+Vcs-Git: https://github.com/NVIDIA/kubernetes
+Vcs-Browser: https://github.com/NVIDIA/kubernetes
+
+Package: kubeadm
+Architecture: amd64
+Version: 1.10.8+nvidia
+Priority: optional
+Section: misc
+Maintainer: NVIDIA CORPORATION <cudatools@nvidia.com>
+Depends: kubelet (>= 1.6.0), kubectl (>= 1.6.0)
+Filename: ./kubeadm_1.10.8+nvidia_amd64.deb
+Size: 21056942
+MD5sum: dc9db1771747c1d8635703c4b31f7782
+SHA1: a8b77d6f3145e3af1a23b8d03e2e3d71017f1679
+SHA256: b7716387f66b3c5e6aec6f196b73629e5b5255f332fa24c0f074001736da7966
+SHA512: dfaee7465f110961bd9e03e418779eb9ea62e4d2079f653aeaef52b4a22a7658eefb1c833873600eb99ff5e7272d5123253ad27bd32ea84cdb063b4289294d3c
 Homepage: https://github.com/NVIDIA/kubernetes
 Description: Kubernetes Cluster Bootstrapping Tool
  The Kubernetes command line tool for bootstrapping a Kubernetes cluster.
@@ -74,6 +111,24 @@ Vcs-Browser: https://github.com/NVIDIA/kubernetes
 
 Package: kubectl
 Architecture: amd64
+Version: 1.10.8+nvidia
+Priority: optional
+Section: misc
+Maintainer: NVIDIA CORPORATION <cudatools@nvidia.com>
+Filename: ./kubectl_1.10.8+nvidia_amd64.deb
+Size: 9037702
+MD5sum: f42198b21e5a76d0abbeb4b47a6895ea
+SHA1: c0218faa071040f5546565c16d042e0348be5b10
+SHA256: 9b670b8c6a42b84980ebf480748d2707befc37ae24b6eb8a8ee91eff90cca8b5
+SHA512: 12d0c6ac4535bb034ec9d7c9d9c2c3ee23622e7542db1ab5d650a7a9587f4baadf80859443edf63d39e5b00c829c5c9282f229074c8e870d1aaa12f71e5fe490
+Homepage: https://github.com/NVIDIA/kubernetes
+Description: Kubernetes Command Line Tool
+ The Kubernetes command line tool for interacting with the Kubernetes API.
+Vcs-Git: https://github.com/NVIDIA/kubernetes
+Vcs-Browser: https://github.com/NVIDIA/kubernetes
+
+Package: kubectl
+Architecture: amd64
 Version: 1.9.10+nvidia
 Priority: optional
 Section: misc
@@ -103,6 +158,25 @@ MD5sum: acc3996761ed150edb77a44eb1ddf746
 SHA1: 5bf4b3ab53aee1a5bbabed664c95c08f69bd071d
 SHA256: 938d807c23a8dffcdd2de73a41d4c976f1d4aa70433f50337bd5ec3391be9548
 SHA512: 571b77417649bb07b8b0972a368be953c39812e293ef5967bd9ce6dd59494673c0523228c6a21104cbf628a1513253ace6fe3671b4f4fb59d925045f96775463
+Homepage: https://github.com/NVIDIA/kubernetes
+Description: Kubernetes Node Agent
+ The node agent of Kubernetes, the container cluster manager
+Vcs-Git: https://github.com/NVIDIA/kubernetes
+Vcs-Browser: https://github.com/NVIDIA/kubernetes
+
+Package: kubelet
+Architecture: amd64
+Version: 1.10.8+nvidia
+Priority: optional
+Section: misc
+Maintainer: NVIDIA CORPORATION <cudatools@nvidia.com>
+Depends: iptables (>= 1.4.21), kubernetes-cni (= 0.6.0), iproute2, socat, util-linux, mount, ebtables, ethtool, init-system-helpers (>= 1.18~)
+Filename: ./kubelet_1.10.8+nvidia_amd64.deb
+Size: 21461604
+MD5sum: 75f7c9794097ff2a82642b12b3f6b52c
+SHA1: 2a28ffbc8f6d82471e6df8fa012981621a7c7718
+SHA256: b01d7c3491b56211fe4607da8ceddd1d2105d962d3c276129f4831622c168aa7
+SHA512: 5935f27eee901bf36860d68fe05374075ff398a59a0033f72582c9cf5ceb9b3a827142375ed240fbfef6341e02dc20c2b9814491a224683f6078f081c68ba537
 Homepage: https://github.com/NVIDIA/kubernetes
 Description: Kubernetes Node Agent
  The node agent of Kubernetes, the container cluster manager

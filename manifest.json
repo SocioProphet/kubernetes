@@ -1,0 +1,11 @@
+{
+  "release_repo": "git@github.com:NVIDIA/kubernetes.git",
+  "staging_repo": "git@github.com:containerdevk8s/kubernetes.git",
+  "deb": [
+    "artifacts/ubuntu16.04/amd64"
+  ],
+  "rpm": [
+    "artifacts/centos7/x86_64"
+  ]
+}
+
